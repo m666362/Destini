@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/T1_Story"
+        android:layout_alignParentTop="true"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/textbody" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/true_button"
+            android:text="@string/T1_Ans1"
+            android:textSize="18sp"
+            android:background="#f1c40f"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/false_button"
+            android:text="@string/T1_Ans2"
+            android:textSize="18sp"
+            android:background="#c0392b"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
